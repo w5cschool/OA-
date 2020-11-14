@@ -1,0 +1,48 @@
+[INFO] [16:04:43.580] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\workplace\oa\oa-system3.0\.\config\sqlite3.db
+[INFO] [16:04:49.878] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\workplace\oa\oa-system3.0\.\config\sqlite3.db
+[INFO] [16:04:49.880] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.loadGeneratorConfigs:182 --> sql: SELECT * FROM generator_config
+[INFO] [16:04:51.874] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\workplace\oa\oa-system3.0\.\config\sqlite3.db
+[INFO] [16:04:51.878] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.loadGeneratorConfig:159 --> sql: SELECT * FROM generator_config where name='oa'
+[INFO] [16:05:37.325] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:238 --> jar lib path: D:\workplace\oa\oa-system3.0\src\main\resources\lib
+[INFO] [16:05:37.328] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.loadDbDriver:228 --> load driver class: com.mysql.jdbc.Driver@38e54393
+[INFO] [16:05:37.329] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:214 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://localhost:3306/account?useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [16:05:37.648] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnection:139 --> getConnection, connection url: com.mysql.cj.jdbc.ConnectionImpl@b285066
+[INFO] [16:05:54.730] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: file:/D:/DevelopmentTool/mybatis/mybatis-generator-gui-master/target/classes/logback.xml
+[INFO] [16:05:54.733] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\DevelopmentTool\mybatis\mybatis-generator-gui-master\target\classes\lib\mysql-connector-java-5.1.38.jar
+[INFO] [16:05:54.739] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:214 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://localhost:3306/account?useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [16:05:54.790] [JavaFX Application Thread] [] org.mybatis.generator.logging.LogFactory.setImplementation:105 --> Logging initialized using 'org.mybatis.generator.logging.slf4j.Slf4jLoggingLogFactory@329b65f2' adapter.
+[DEBUG] [16:05:54.793] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "account.user"
+[DEBUG] [16:05:54.827] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type 4, in table "account..user"
+[DEBUG] [16:05:54.828] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "login_name", data type 12, in table "account..user"
+[DEBUG] [16:05:54.829] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "password", data type 12, in table "account..user"
+[DEBUG] [16:05:54.830] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "nick_name", data type 12, in table "account..user"
+[DEBUG] [16:05:54.830] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "age", data type 12, in table "account..user"
+[DEBUG] [16:05:54.831] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "location", data type 12, in table "account..user"
+[DEBUG] [16:05:54.831] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "role", data type 12, in table "account..user"
+[DEBUG] [16:05:54.832] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "images", data type 12, in table "account..user"
+[INFO] [16:17:58.204] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\workplace\oa\oa-system3.0\.\config\sqlite3.db
+[INFO] [16:18:12.061] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:238 --> jar lib path: D:\workplace\oa\oa-system3.0\src\main\resources\lib
+[INFO] [16:18:12.062] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.loadDbDriver:228 --> load driver class: com.mysql.jdbc.Driver@c8eca2b
+[INFO] [16:18:12.063] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:214 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://localhost:3306/account?useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [16:18:12.354] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnection:139 --> getConnection, connection url: com.mysql.cj.jdbc.ConnectionImpl@58e32559
+[INFO] [16:18:17.704] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\workplace\oa\oa-system3.0\.\config\sqlite3.db
+[INFO] [16:18:17.705] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.loadGeneratorConfigs:182 --> sql: SELECT * FROM generator_config
+[INFO] [16:18:19.322] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\workplace\oa\oa-system3.0\.\config\sqlite3.db
+[INFO] [16:18:19.325] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.loadGeneratorConfig:159 --> sql: SELECT * FROM generator_config where name='oa'
+[INFO] [16:19:29.131] [JavaFX Application Thread] [] com.zzg.mybatis.generator.controller.MainUIController.saveGeneratorConfig:365 --> user choose name: oa
+[INFO] [16:19:29.132] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\workplace\oa\oa-system3.0\.\config\sqlite3.db
+[INFO] [16:19:29.134] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.deleteGeneratorConfig:204 --> sql: DELETE FROM generator_config where name='oa'
+[INFO] [16:19:29.142] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\workplace\oa\oa-system3.0\.\config\sqlite3.db
+[INFO] [16:19:32.531] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: file:/D:/DevelopmentTool/mybatis/mybatis-generator-gui-master/target/classes/logback.xml
+[INFO] [16:19:32.534] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\DevelopmentTool\mybatis\mybatis-generator-gui-master\target\classes\lib\mysql-connector-java-5.1.38.jar
+[INFO] [16:19:32.539] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:214 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://localhost:3306/account?useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [16:19:32.597] [JavaFX Application Thread] [] org.mybatis.generator.logging.LogFactory.setImplementation:105 --> Logging initialized using 'org.mybatis.generator.logging.slf4j.Slf4jLoggingLogFactory@28b3ed90' adapter.
+[DEBUG] [16:19:32.600] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "account.user"
+[DEBUG] [16:19:32.632] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type 4, in table "account..user"
+[DEBUG] [16:19:32.632] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "login_name", data type 12, in table "account..user"
+[DEBUG] [16:19:32.633] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "password", data type 12, in table "account..user"
+[DEBUG] [16:19:32.634] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "nick_name", data type 12, in table "account..user"
+[DEBUG] [16:19:32.635] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "age", data type 12, in table "account..user"
+[DEBUG] [16:19:32.635] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "location", data type 12, in table "account..user"
+[DEBUG] [16:19:32.636] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "role", data type 12, in table "account..user"
+[DEBUG] [16:19:32.637] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "images", data type 12, in table "account..user"

@@ -1,0 +1,3 @@
+##.properties的优先级要大于yaml
+server:
+  port: 8083

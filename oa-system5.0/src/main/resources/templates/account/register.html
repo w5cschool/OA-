@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<script src="../../static/js/bootstrap.min.js"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>办公无纸化系统</title>
+
+    <!-- 最新的 Bootstrap 核心 css 文件 -->
+    <!-- 在url上 使用 @标签 可以帮我们 自动加上 contextpath -->
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script th:src="@{/js/common/jquery-3.4.1.min.js}" ></script>
+    <script th:src="@{/js/bootstrap.min.js}" ></script>
+
+    <style type="text/css">
+        .form-control{
+            width: 500px;
+        margin: auto;}
+
+    </style>
+</head>
+
+
+<body>
+
+<h1 style="color: red;font-weight: bold;margin: auto;text-align: center" >注册用户</h1>
+
+<form action="/account/register" method="post" style="text-align: center;" enctype="multipart/form-data">
+
+    <div class="form-group">
+        <label for="loginName"></label>
+        <input type="loginName" class="form-control" id="loginName" name="loginName" placeholder="loginName">
+    </div>
+
+    <div class="form-group">
+        <label for="password">password</label>
+        <input type="password" class="form-control" id="password" name="password" placeholder="password" >
+    </div>
+
+    <div class="form-group">
+        <label for="filename">filename</label>
+        <input type="file" id="filename" name="filename" class="form-control">
+    </div>
+
+    <button type="submit" class="btn btn-default">register</button>
+
+</form>
+
+<td style="text-align: center;"><a href="/account/login" style="color: #0e9aef;">去登录</a></td>
+<h1 th:text="${stat?.getData()}" style="color: red;text-align: center;"></h1>
+
+
+
+</body>
+</html>
+
