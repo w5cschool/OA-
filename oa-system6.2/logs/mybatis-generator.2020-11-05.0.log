@@ -1,0 +1,5 @@
+[INFO] [23:04:48.619] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\workplace\oa\oa-system2.0\.\config\sqlite3.db
+[INFO] [23:07:29.008] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:238 --> jar lib path: D:\workplace\oa\oa-system2.0\src\main\resources\lib
+[INFO] [23:07:29.010] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.loadDbDriver:228 --> load driver class: com.mysql.jdbc.Driver@3bcf8e38
+[INFO] [23:07:29.011] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:214 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://localhost:3306/account?useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [23:07:29.349] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnection:139 --> getConnection, connection url: com.mysql.cj.jdbc.ConnectionImpl@507bba23
