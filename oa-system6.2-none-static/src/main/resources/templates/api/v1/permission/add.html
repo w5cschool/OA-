@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>办公无纸化系统</title>
+
+    <script src="jquery-1.10.2.min.js"></script>
+    <script th:src="@{/js/common/jquery-3.4.1.min.js}" ></script>
+    <script th:src="@{/js/bootstrap.min.js}" ></script>
+    <!-- 最新的 Bootstrap 核心 css 文件 -->
+    <!-- 在url上 使用 @标签 可以帮我们 自动加上 contextpath -->
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+
+</head>
+<body>
+<p1 style="color: red;">添加权限</p1>
+<form method="post" id="form1">
+    name:<input type="text" name="name"><br>
+    <span>权限： </span>
+    c<input type="checkbox" name="c" >
+    r<input type="checkbox" name="r">
+    u<input type="checkbox" name="u" >
+    d<input type="checkbox" name="d" >
+    <br>
+    <input type="button" id="butAdd" value="保存">
+</form>
+
+<script>
+    $(function () {
+        //将数据异步提交到/rest/add的Controller方法上
+        $("#butAdd").click(function () {
+            $.ajax({
+                cache: true,
+                type: "POST",
+                url: "/rest/add",
+                //将表格的数据序列化存起来
+                data: $('#form1').serialize(),
+                //提交格式为json
+                dataType: "json",
+                async: false,
+                error: function (request) {
+                    console.log("Connection error");
+                },
+                success: function (data) {
+                    if (data.code == 200){
+                        console.log("成功");
+                        document.write(data.data);
+                    }else {
+                        console.log("失败");
+                        document.write(data.data);
+
+                    }
+                }
+            })
+        })
+    })
+</script>
+
+</body>
+</html>
+
+
